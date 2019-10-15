@@ -1,8 +1,10 @@
 def find_element_index(array, value_to_find)
-    array[value_to_find]
+    
     array.include?(value_to_find) do 
     puts array.index(value_to_find)
   end
+    while true do
+      puts array[value_to_find]
 end
 
 def find_max_value(array)
