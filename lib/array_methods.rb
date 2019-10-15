@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
     array.include?(value_to_find) do 
     puts array.index(value_to_find)
   end
-    while true do
+    while true do |array.index|
       puts array.index
 end
 
